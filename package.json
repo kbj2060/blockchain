@@ -1,0 +1,18 @@
+{
+  "name": "llewyn",
+  "version": "0.0.0",
+  "description": "blockchain",
+  "main": "index.js",
+  "repository": "https://github.com/kbj2060/blockchain.git",
+  "author": "llewyn <kbj2060@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js \" "
+  },
+  "dependencies": {
+    "tsc-watch": "^4.2.9",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.3"
+  }
+}
